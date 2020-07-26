@@ -1,0 +1,5 @@
+Method,Cityscapes,Ade20K
+Baseline,76.36\%,40.97\%
+Baseline+p-map,75.19\%,39.44\%
+Baseline+gated(p-map),77.23\%,41.31\%
+CiSS-Net,79.10\%,42.56\%

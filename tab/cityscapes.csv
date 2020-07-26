@@ -1,0 +1,16 @@
+Method,IoU cla.,IoU cat.
+SegNet,57.0,79.1
+CRF-RNN,62.5,82.7
+FCN,65.3,85.7
+DPN,66.8,86.0
+DilatedNet,67.1,86.5
+LRR,69.7,88.2
+DeepLab,70.4,86.4
+Context-CRF,71.6,87.3
+RefineNet,73.6,87.9
+FRRN,71.8,88.9
+GRN+LRN(single model),76.2,-
+DSSPN(Universal),76.6,89.6
+DepthAware,78.2,89.7
+PSPNet,78.4,90.6
+CiSS-Net,79.2,90.7

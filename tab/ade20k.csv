@@ -1,0 +1,14 @@
+Method,Backbone,mIoU,pixAcc
+SegNet,-,21.64,71.00
+FCN,-,29.39,71.32
+DilatedNet,,32.31,73.55
+Cascaded-SegNet,,27.51,71.83
+Cascaded-DilatedNet,,34.90,74.52
+RefineNet,Res101,40.2,-
+PSPNet,Res101,41.96,80.64
+GRN+LRN(single model),Res101,42.60,-
+DSSPN-Softmax,Res101,42.03,80.81
+Global-Context,Res101,38.37,77.76
+PSPNet,Res50,41.68,80.04
+EncNet,Res50,41.11,79.73
+CiSS-Net,Res50,42.56,80.77

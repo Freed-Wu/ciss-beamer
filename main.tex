@@ -47,6 +47,18 @@
 \label{sec:introduction}
 
 \begin{frame}
+  \frametitle{CV tasks}
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[
+      width = 0.8\linewidth,
+    ]{cv}
+    \caption{Tasks}%
+    \label{fig:cv}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
   \frametitle{Main object}
   P-map has encoded a large number of contextual information not only local
   (e.g.\ objects) but also global (e.g.\ layout).
@@ -191,7 +203,7 @@
     \begin{column}{0.55\textwidth}
       \begin{description}[<+->]
         \item[Domain features]$X_I \in \mathbb{R}^{H' \times W' \times C}$
-        \item[Context map]$K_I \in \mathbb{Z}_{N_\mathrm{c}}^{H' \times W'}$
+        \item[Context map]$K_I \in \mathbb{Z}_{N_\mathrm{c} + 1}^{H' \times W'}$
         \item[P-map]$Y_I \in \mathbb{R}^{H^\circ \times W^\circ}$
         \item[Encoded context map]$K_I^{(\mathrm{e})} \in \mathbb{R}^{H'
           \times W' \times C_\mathrm{e}}$
@@ -221,7 +233,7 @@
     \begin{column}{0.55\textwidth}
       \begin{description}
         \item[Domain features]$X_I \in \mathbb{R}^{H' \times W' \times C}$
-        \item[Context map]$K_I \in \mathbb{Z}_{N_\mathrm{c}}^{H' \times W'}$
+        \item[Context map]$K_I \in \mathbb{Z}_{N_\mathrm{c} + 1}^{H' \times W'}$
         \item[P-map]$Y_I \in \mathbb{R}^{H^\circ \times W^\circ}$
         \item[Encoded context map]$K_I^{(\mathrm{e})} \in \mathbb{R}^{H'
           \times W' \times C_\mathrm{e}}$
@@ -591,7 +603,7 @@
 
 \begin{frame}
   \frametitle{Sensitivity analysis}
-  Adjust parameters to analysis variety. Keep $\lambda_1 = 1$.
+  Adjust parameters to analysize variety. Keep $\lambda_1 = 1$.
   \begin{table}[htbp]
     \centering
     \caption{Sensitivity analysis}%
